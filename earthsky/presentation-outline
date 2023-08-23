@@ -1,0 +1,119 @@
+
+
+The Earth Beneath, the Sky Above
+Colin Berry (M0GXV)
+September 2019
+
+Topics
+
+The loop antenna revisited
+physically more robust
+Separate tuning capacitor and coupler, and pully
+Use on 10MHz band, (CW without the contesting)
+
+Theory: skin effect, bad joints, dielectric losses
+Didn't explain the bandwidth / Q
+
+Theory vs practice - where has all the power gone?
+
+Experimental evidence:
+Orientation indoors - radiator, window frame
+Proximity of lossy coil of wire
+Thermally coated conservatory windows
+height above ground
+orientation above ground
+Thermal heating - trivial
+
+Conclusion - absorption by nearby materials
+Articles on internet suggest typical soil parameters and effect on dipole
+
+Basic experimental approach
+1. Measure the loop and feed into model
+2. Calculate reactance and resistance (skin effect and radiation)
+3. Attach antenna analyser via short patch lead
+4. Tune loop to chosen frequency and adjust coupling to get 50 ohms
+5. Measure bandwidth (where SWR is 2.62)
+6. Calculate Q and hence total loop resistance
+7. Change height above ground and measure impedance at new resonance - or new bandwidth
+8. Try to explain the observations
+
+Could try different parameters to get model to reproduce observations, but also can assess overall radiated power, and hence deduce absorption
+
+Discoveries:
+
+Radiation resistance varies between perfect ground and free space
+Length of transmission line determines how coupling changes resonant impedance
+NEC modelling program underestimates earth losses when close to ground
+
+More fundamental ideas considered:
+Coupling to earth via displacement currents (varying charges)
+Eddy currents induced by varying magnetic field
+Subjective estimates of dimensions
+Equivalent circuits
+Spreadsheet models
+
+Refractive model - reflection, transmission, absorption
+Boundary conditions for E and H
+Analogy with transmission line load mismatch
+Imperfect ground - complex permittivity
+Evanescence and skin depth
+
+Typical ground parameters and variation with frequency
+HF and microwave
+Loss coefficient
+
+Experimental results and analysis from US
+NEC model results - horizontal dipoles
+
+Radiation pattern - 4 directions (22BS, 45BS, 22P, 45P, V + assumed zero H)
+Reduction in low angle radiation, increase in near-vertical
+
+Other models considered:
+
+inverted V
+inverted V with reflector
+
+Near-vertical incidence skywave propagation
+Reasons for using it
+absorption, reflection and transmission
+Negative refractive index in plasma
+Effect of F layer - critical frequency and MUF
+Effect of D layer - absorption varies with angle, frequency and daylight
+Above/below 10MHz - optimum 5-7 day, 2-4 night, max 8. 15%<Critical freq
+Ionosonde reports
+
+Actual results observed - greyline effect
+
+For loop - horizontal polarization more useful, and nodes less noticeable
+
+Going forward:
+Urban noise still an issue
+Making loop more robust for portability and wind
+Increased height and tuneability
+
+Demonstration operating? Proximity absorption testing?
+
+
+
+
+
+
+Exhibits
+
+1. Loop
+2. Experimental set up - demo / volunteers to do
+3. NEC model and various views
+4. Equivalent circuits for dielectric and eddy current absorption
+5. Graph of experimental results (7 and 10?)
+6. Graph of model results for loop
+7. Graph of dipole by height
+8. Graph of inverted V by height and with reflector
+9. Graphic of evanescence (wiki?)
+10. Graphs of effects on dipole of various soils (article)
+11. Graph of radiation intensity by direction (convert to linear power)
+12. Graphic of D/E/F layers (wiki)
+13. MUF and critical frequency map (internet)
+14. Radiosonde graphic 
+
+
+
